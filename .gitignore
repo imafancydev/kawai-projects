@@ -1,0 +1,63 @@
+# Diretórios de Build e Binários
+build/
+bin/
+obj/
+out/
+dist/
+
+# Arquivos Objeto e Dependências de Compilação
+*.o
+*.obj
+*.ko
+*.elf
+*.d
+*.lo
+*.la
+
+# Executáveis
+*.out
+*.exe
+*.bin
+*.app
+
+# Bibliotecas Estáticas e Dinâmicas
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Dumps de Memória, Core Dumps e Sanitizers
+core
+core.*
+*.core
+*.dmp
+vgcore.*
+
+# Símbolos de Debug, Profiling e Cobertura
+*.dSYM/
+*.pdb
+*.ilk
+*.map
+*.gcda
+*.gcno
+*.gcov
+gmon.out
+perf.data
+perf.data.old
+
+# Ambientes, IDEs e Indexadores
+.vscode/
+.idea/
+.clangd/
+.cache/
+compile_commands.json
+
+# Arquivos Temporários de Editor e Sistema Operacional
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
